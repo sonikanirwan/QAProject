@@ -1,6 +1,6 @@
 package java_package;
 
-public class BankSystem {
+public class BankSystem extends StudentLogin {
 	
 	BankSystem(String name, String pass)
 	{
@@ -34,6 +34,14 @@ int amt =1000;
 		a.withdraw(500);
 		System.out.println(a.display());
 	}
+
+	@Override
+	void loginCredentials() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 	
 	
 
